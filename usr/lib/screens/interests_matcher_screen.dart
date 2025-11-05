@@ -181,7 +181,7 @@ class _InterestsMatcherScreenState extends State<InterestsMatcherScreen> {
                   );
                 }).toList(),
               ),
-              if (_suggestedTopics.isNotEmpty) ..[
+              if (_suggestedTopics.isNotEmpty) ...[
                 const SizedBox(height: 32),
                 Row(
                   children: [
@@ -221,7 +221,7 @@ class _InterestsMatcherScreenState extends State<InterestsMatcherScreen> {
                       ),
                     )),
               ],
-              if (_selectedInterests.isEmpty) ..[
+              if (_selectedInterests.isEmpty) ...[
                 const SizedBox(height: 32),
                 Center(
                   child: Column(

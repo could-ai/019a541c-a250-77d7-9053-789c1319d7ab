@@ -124,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ...(_todaysTips.map((tip) => Padding(
                   padding: const EdgeInsets.only(bottom: 12.0),
                   child: SocialTipCard(tip: tip),
-                ))).
+                ))),
             const SizedBox(height: 24),
             _buildSectionHeader('Featured Starters', () {
               Navigator.push(
@@ -138,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ...(_featuredStarters.map((starter) => Padding(
                   padding: const EdgeInsets.only(bottom: 12.0),
                   child: ConversationStarterCard(starter: starter),
-                ))).
+                ))),
           ],
         ),
       ),
